@@ -15,7 +15,7 @@ public:
 };
 
 ccesar::ccesar(int _key){
-	m_alpha = "0123456789,abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ-.()[]!#$%&*+./^_}{";
+	m_alpha = "0123456789,abcdefghijklmñnopqrstuvwxyz ABCDEFGHIJKLMÑNOPQRSTUVWXYZ-.()[]!#$%&*+./^_}{";
 	m_n = m_alpha.size();
 	m_key = modulo(_key,m_n);
 }
